@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pebble Beach</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+ 
+
+<body>
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo">
+        
+        <a href="./index.html"><img class="logo-image" src="./pb_logo.png"></a>
+
+
+
+
+      </div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          
+          <img src ="./close.png" class="fa-times"></i>
+        </div>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <img src ="./menu.png" class="menu-btn">
+        
+      </div>
+    </div>
+  </nav>
+
+
+<div class="section"></div>
+
+
+
+
+
+
+  <div class="banner"></div>
+    </div>
+
+
+
+    <div class="body-header"></div>
+
+
+
+    <div class="section-1">
+      <h1>Experience the Wonders of Pebble Beach</h1>
+      <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem velit magnam consequuntur omnis itaque corrupti rerum deleniti beatae soluta quos.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem velit magnam consequuntur omnis itaque corrupti rerum deleniti beatae soluta quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem velit magnam consequuntur omnis itaque corrupti rerum deleniti beatae soluta quos.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem velit magnam consequuntur omnis itaque corrupti rerum deleniti beatae soluta quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem velit magnam consequuntur omnis itaque corrupti rerum deleniti beatae soluta quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem velit magnam consequuntur omnis itaque corrupti rerum deleniti beatae soluta quos.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem velit magnam consequuntur omnis itaque corrupti rerum deleniti beatae soluta quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem velit magnam consequuntur omnis itaque corrupti rerum deleniti beatae soluta quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem velit magnam consequuntur omnis itaque corrupti rerum deleniti beatae soluta quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem velit magnam consequuntur omnis itaque corrupti rerum deleniti beatae soluta quos.
+    </p>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="container-footer">
+      <div class="footer">
+           <div class="copyright">
+               © 2022 Pebble Beach Golf Co. | <a href="">TONKA</a>
+           </div>
+
+           <div class="information">
+               <a href="">Company Information</a> | <a href="">Privacy Policy</a> | <a href="">Terms and Conditions</a>
+           </div>
+       </div>
+
+   </div>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+<script>
+  const body = document.querySelector("body");
+  const navbar = document.querySelector(".navbar");
+  const menuBtn = document.querySelector(".menu-btn");
+  const cancelBtn = document.querySelector(".cancel-btn");
+  menuBtn.onclick = ()=>{
+    navbar.classList.add("show");
+    menuBtn.classList.add("hide");
+    body.classList.add("disabled");
+  }
+  cancelBtn.onclick = ()=>{
+    body.classList.remove("disabled");
+    navbar.classList.remove("show");
+    menuBtn.classList.remove("hide");
+  }
+ 
+
+  
+
+</script>
+
+
+
+</html>
