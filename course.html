@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saratoga Greens</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+
+
+    <link rel="shortcut icon" href="./favicon.png">
+    <link rel="apple-touch-icon" href="./favicon.png">
+    <link rel="icon" sizes="192x192" href="./favicon.png">
+
+
+
+</head>
+ 
+
+<body>
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo">
+        
+        <a href="./index.html"><img class="logo-image" src="./pb_logo.png"></a>
+
+
+
+
+      </div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          
+          <img src ="./close.png" class="fa-times"></i>
+        </div>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Tee Times</a></li>
+        <li><a href="#">Memberships</a></li>
+        <li><a href="./course.html">Course</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <img src ="./menu.png" class="menu-btn">
+        
+      </div>
+    </div>
+  </nav>
+
+
+<div class="section"></div>
+
+
+
+
+
+
+  <div class="banner"></div>
+    </div>
+
+
+
+    <div class="body-header"></div>
+
+
+
+    <div class="section-1">
+
+     
+      <h1>Experience Saratoga Greens Golf Club!</h1>
+
+    
+
+
+      <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem velit magnam consequuntur omnis itaque corrupti rerum deleniti beatae soluta quos.
+    </p>
+
+  <img class="section-1-image" src="./body_image_1.jpg">
+
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem velit magnam consequuntur omnis itaque corrupti rerum deleniti beatae soluta quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem velit magnam consequuntur omnis itaque corrupti rerum deleniti beatae soluta quos.
+    </p>
+
+   
+
+    </div>
+
+
+
+
+
+    <div class="section-2">
+      <h1>18 Holes with Breathtaking Views</h1>
+
+
+      <a href="./course.html"><button class="section-1-button">See More</button></a>
+
+      <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem velit magnam consequuntur omnis itaque corrupti rerum deleniti beatae soluta quos.
+    </p>
+
+  <img class="section-2-image" src="./body_image_2.jpg">
+
+
+
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem velit magnam consequuntur omnis itaque corrupti rerum deleniti beatae soluta quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem velit magnam consequuntur omnis itaque corrupti rerum deleniti beatae soluta quos.
+    </p>
+
+
+  
+
+  
+
+    </div>
+ 
+
+
+
+
+
+
+
+
+    <div class="container-footer">
+      <div class="footer">
+           <div class="copyright">
+               © 2022 Saratoga Greens | <a href="">Home</a>
+           </div>
+
+           <div class="information">
+                <a href="">Privacy Policy</a> | <a href="">Terms and Conditions</a>
+           </div>
+       </div>
+
+   </div>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+<script>
+  const body = document.querySelector("body");
+  const navbar = document.querySelector(".navbar");
+  const menuBtn = document.querySelector(".menu-btn");
+  const cancelBtn = document.querySelector(".cancel-btn");
+  menuBtn.onclick = ()=>{
+    navbar.classList.add("show");
+    menuBtn.classList.add("hide");
+    body.classList.add("disabled");
+  }
+  cancelBtn.onclick = ()=>{
+    body.classList.remove("disabled");
+    navbar.classList.remove("show");
+    menuBtn.classList.remove("hide");
+  }
+ 
+
+  
+
+</script>
+
+
+
+</html>
