@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saratoga Greens</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+
+
+    <link rel="shortcut icon" href="./favicon.png">
+    <link rel="apple-touch-icon" href="./favicon.png">
+    <link rel="icon" sizes="192x192" href="./favicon.png">
+
+
+
+</head>
+ 
+
+<body>
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo">
+        
+        <a href="./index.html"><img class="logo-image" src="./logo.jpg"></a>
+
+
+
+
+      </div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          
+          <img src ="./close.png" class="fa-times"></i>
+        </div>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./teetimes.html">Tee Times</a></li>
+        <li><a href="./memberships.html">Memberships</a></li>
+        <li><a href="./course.html">Course</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <img src ="./menu.png" class="menu-btn">
+        
+      </div>
+    </div>
+  </nav>
+
+
+<div class="section"></div>
+
+
+  <div class="banner"></div>
+    </div>
+
+    <div class="body-header"></div>
+
+ 
+    <div class="section-2">
+      <h1>Welcome to Golf Paradise</h1>
+
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem velit magnam consequuntur omnis itaque corrupti rerum deleniti beatae soluta quos.
+    </p>
+
+  </div>
+
+
+  <div class="media-scroller snaps-inline">
+
+    <div class="media-element">
+      <img src="./hole_2.jpg">
+      <p>Hole 1 | Par 4 | 290 Yards</p>
+    </div>
+    <div class="media-element">
+      <img src="./hole_3.jpg">
+      <p>Hole 2 | Par 5 | 424 Yards</p>
+    </div>
+    <div class="media-element">
+      <img src="./hole_2.jpg">
+    </div>
+    <div class="media-element"></div>
+    <div class="media-element"></div>
+    <div class="media-element"></div>
+    <div class="media-element"></div>
+
+</div>
+
+
+
+
+
+
+
+
+    <div class="container-footer">
+        <div class="footer">
+                 
+  
+             <div class="information">
+               <h3><strong>Contact Us:</strong></h3>
+  
+               <p><strong>610-555-5555 | Contact@SaratogaGreens.com</strong></p> 
+                  <p>999 West Golf Avenue</p> <p>Myrtle Beach, SC 29577</p>
+             </div>
+  
+         
+  
+  
+      </div>
+  
+            
+        <div class="social-links">
+            <a href="#" target="_blank">
+              <img class ="social-icon" src="./facebook.png">
+            </a> 
+  
+            <a href="#" target="_blank">
+              <img class ="social-icon" src="./instagram.png">
+            </a> 
+  
+            <a href="#" target="_blank">
+              <img class ="social-icon" src="./twitter.png">
+            </a> 
+  
+            
+        </div>
+  
+      
+          <div class="copyright">
+          <p><strong>© 2022 Saratoga Greens</strong> | All Rights Reserved</p>
+          </div>
+     
+  
+  
+     </div>
+  
+  </footer>
+  
+
+
+
+
+ 
+   
+    
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+<script>
+  const body = document.querySelector("body");
+  const navbar = document.querySelector(".navbar");
+  const menuBtn = document.querySelector(".menu-btn");
+  const cancelBtn = document.querySelector(".cancel-btn");
+  menuBtn.onclick = ()=>{
+    navbar.classList.add("show");
+    menuBtn.classList.add("hide");
+    body.classList.add("disabled");
+  }
+  cancelBtn.onclick = ()=>{
+    body.classList.remove("disabled");
+    navbar.classList.remove("show");
+    menuBtn.classList.remove("hide");
+  }
+ 
+  
+
+</script>
+
+
+</html>
