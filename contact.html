@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saratoga Greens</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+
+
+    <link rel="shortcut icon" href="./favicon.png">
+    <link rel="apple-touch-icon" href="./favicon.png">
+    <link rel="icon" sizes="192x192" href="./favicon.png">
+
+
+
+</head>
+ 
+
+<body>
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo">
+        
+        <a href="./index.html"><img class="logo-image" src="./logo.png"></a>
+
+
+
+
+      </div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          
+          <img src ="./close.png" class="close-btn"></i>
+        </div>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./teetimes.html">Tee Times</a></li>
+        <li><a href="./memberships.html">Memberships</a></li>
+        <li><a href="./course.html">Course</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+      <img src ="./menu.png" class="menu-btn">
+        
+      </div>
+    </div>
+  </nav>
+
+
+<div class="section"></div>
+
+
+  <div class="banner"></div>
+    </div>
+
+    <div class="body-header"></div>
+
+
+
+
+
+
+
+    
+
+    <div class="section-1">
+
+      
+
+
+
+      <h1>Contact</h1>
+      
+      
+      <div class="contact-buttons">
+      <a href="mailto:Contact@SaratogaGreens.com?subject=Golf Inquiry&body=Hi Saratoga Golf, I'd like to connect!" target="_blank"><button class="section-1-button"><img class = "email-button" src="./email.png"> </button></a>
+
+      <a href="mailto:Contact@SaratogaGreens.com?subject=Golf Inquiry&body=Hi Saratoga Golf, I'd like to connect!" target="_blank"><button class="section-1-button"><img class = "email-button" src="./email.png"> </button></a>
+      </div>
+
+    <div class="contact-address">
+      <p><strong>Saratoga Greens Golf Club</strong></p>
+      <p>999 West Golf Avenue</p> <p>Myrtle Beach, SC 29577</p>
+
+   
+ 
+      <p><strong>Phone: </strong>610-555-5555</p>
+
+    <p><strong>Email: </strong>Contact@SaratogaGreens.com</p>
+
+   </div>
+
+
+
+
+  <img class="section-1-image" src="./golf_stock_2.jpg">
+
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem velit magnam consequuntur omnis itaque corrupti rerum deleniti beatae soluta quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem velit magnam consequuntur omnis itaque corrupti rerum deleniti.
+    </p>
+
+   
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container-footer">
+        <div class="footer">
+                 
+  
+             <div class="information">
+               <h3><strong>Contact Us</strong></h3>
+  
+               <p class="phone"><strong>610-555-5555</strong></p> 
+               <p><strong>Contact@SaratogaGreens.com</strong></p> 
+               
+                  <p>999 West Golf Avenue</p> <p>Myrtle Beach, SC 29577</p>
+             </div>
+  
+         
+             <hr>
+  
+      </div>
+  
+            
+        <div class="social-links">
+            <a href="#" target="_blank">
+              <img class ="social-icon" src="./facebook.png">
+            </a> 
+  
+            <a href="#" target="_blank">
+              <img class ="social-icon" src="./instagram.png">
+            </a> 
+  
+            <a href="#" target="_blank">
+              <img class ="social-icon" src="./twitter.png">
+            </a> 
+  
+            
+        </div>
+  
+      
+          <div class="copyright">
+          <p><strong>© Saratoga Greens</strong> | All Rights Reserved</p>
+          </div>
+     
+  
+  
+     </div>
+  
+  </footer>
+  
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+<script>
+  const body = document.querySelector("body");
+  const navbar = document.querySelector(".navbar");
+  const menuBtn = document.querySelector(".menu-btn");
+  const cancelBtn = document.querySelector(".cancel-btn");
+  menuBtn.onclick = ()=>{
+    navbar.classList.add("show");
+    menuBtn.classList.add("hide");
+    body.classList.add("disabled");
+  }
+  cancelBtn.onclick = ()=>{
+    body.classList.remove("disabled");
+    navbar.classList.remove("show");
+    menuBtn.classList.remove("hide");
+  }
+ 
+
+  
+
+</script>
+
+
+
+</html>
