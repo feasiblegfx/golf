@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Saratoga Greens</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="apple-touch-icon" href="img/favicon.png">
+    <link rel="icon" sizes="192x192" href="img/favicon.png">
+
+
+</head>
+ 
+
+<body>
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo">
+        
+        <a href="./index.html"><img class="logo-image" src="img/logo.png"></a>
+
+
+
+
+      </div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          
+          <img src ="img/close.png" class="close-btn"></i>
+        </div>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./teetimes.html">Tee Times</a></li>
+        <li><a href="./memberships.html">Memberships</a></li>
+        <li><a href="./course.html">Course</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        
+        
+      </ul>
+      <img src ="img/menu.png" class="menu-btn">
+        
+      </div>
+    </div>
+  </nav>
+
+ 
+<div class="section"></div>
+
+  <div class="banner"></div>
+    </div>
+
+
+    <div class="body-header"></div>
+
+    <div class="section-1">
+
+      
+   
+      <h1>Memberships</h1>
+
+      <p>We offer both <strong>Summer</strong> & <strong>Full-Year</strong> Membership options.
+      </p>  
+
+      <img class="section-1-image" src="img/golf_stock_3.jpg">
+
+    <table>
+      <tr>
+        <th></th>
+        <th>Summer</th>
+        <th>Full-Year</th>
+      </tr>      
+      <tr>
+        <td><strong>Regular</strong></td>
+        <td>$1,500</td>
+        <td>$5,000</td>
+      </tr>  
+        <td><strong>Senior</strong></td>
+        <td>$1,250</td>
+        <td>$4,000</td>
+      </tr>  
+   </table>
+    
+  <p>For more information call:</p> <strong>
+
+   
+<a class="phone" href="tel:610-555-5555">610-555-5555</a>
+
+
+
+
+
+
+
+
+
+  
+
+   
+
+    </div>
+
+
+    <hr>
+
+
+
+
+
+    <div class="container-footer">
+      <div class="footer">
+               
+
+           <div class="information">
+             <h3><strong>Contact Us</strong></h3>
+
+             <a href="tel:610-555-5555">610-555-5555</a>
+
+             <a href="mailto:Contact@SaratogaGreens.com?subject=Golf Inquiry&body=Hi Saratoga Golf, I'd like to connect!" target="_blank">Contact@SaratogaGreens.com</a>
+
+
+             
+                <p>999 West Golf Avenue</p> <p>Myrtle Beach, SC 29577</p>
+           </div>
+
+       
+           <hr>
+
+    </div>
+
+          
+    <div class="social-links">
+      <a href="#" target="_blank">
+        <img class ="social-icon" src="img/facebook.png">
+      </a> 
+
+      <a href="#" target="_blank">
+        <img class ="social-icon" src="img/instagram.png">
+      </a> 
+
+      <a href="#" target="_blank">
+        <img class ="social-icon" src="img/twitter.svg">
+      </a> 
+          
+      </div>
+
+    
+        <div class="copyright">
+        <p><strong>© Saratoga Greens</strong> | All Rights Reserved</p>
+
+
+        <p>Designed & Developed by <strong>feasible creative</strong></p></div>
+        </div>
+   
+
+
+   </div>
+
+</footer>
+
+  
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+<script>
+  const body = document.querySelector("body");
+  const navbar = document.querySelector(".navbar");
+  const menuBtn = document.querySelector(".menu-btn");
+  const cancelBtn = document.querySelector(".cancel-btn");
+  menuBtn.onclick = ()=>{
+    navbar.classList.add("show");
+    menuBtn.classList.add("hide");
+    body.classList.add("disabled");
+  }
+  cancelBtn.onclick = ()=>{
+    body.classList.remove("disabled");
+    navbar.classList.remove("show");
+    menuBtn.classList.remove("hide");
+  }
+ 
+
+  
+
+</script>
+
+
+
+</html>
